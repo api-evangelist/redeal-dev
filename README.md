@@ -1,4 +1,4 @@
-# redeal-dev
+# Redeal
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-redeal-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://redeal.dev/
+Redeal provides a fairness-computation API that enables parties to split costs, run sealed-bid auctions, compute Shapley values, and generate verifiable random selections. The service offers free verification of certificates, transparent transparency logs, and open-source algorithms. It aims to facilitate equitable, provably fair deals without requiring user accounts, handling sensitive data securely, and supporting AI agents as participants.
+
+**Areas:** Fairness Computation · API · Sealed‑Bid Auction · Shapley Value · Verification
+
+## Redeal on APIs.io
+
+Everything profiled for Redeal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/redeal-dev/](https://apis.io/providers/redeal-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Redeal Certificates API](https://apis.io/apis/redeal-dev/redeal-dev-certificates-api/) — The Certificates API from Redeal — 3 operation(s) for certificates.
+- [Redeal Deals API](https://apis.io/apis/redeal-dev/redeal-dev-deals-api/) — The Deals API from Redeal — 8 operation(s) for deals.
+- [Redeal Onboarding API](https://apis.io/apis/redeal-dev/redeal-dev-onboarding-api/) — The onboarding API from Redeal — 3 operation(s) for onboarding.
+- [Redeal Transparency API](https://apis.io/apis/redeal-dev/redeal-dev-transparency-api/) — The transparency API from Redeal — 1 operation(s) for transparency.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Redeal Agentic Access](https://apis.io/agentic-access/redeal-dev/redeal-dev-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Certificate](https://apis.io/schemas/redeal-dev/redeal-dev-certificate/)
+- [DealView](https://apis.io/schemas/redeal-dev/redeal-dev-deal-view/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Redeal Dev Context](https://apis.io/jsonld/redeal-dev/redeal-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Redeal API Rules](https://apis.io/rules/redeal-dev/redeal-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Redeal Authentication](https://apis.io/security/redeal-dev/redeal-dev-authentication/)
+- [Redeal Domain Security](https://apis.io/security/redeal-dev/redeal-dev-domain-security/)
+- [Redeal Vulnerability Disclosure](https://apis.io/security/redeal-dev/redeal-dev-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://redeal.dev/)
+- [Documentation](https://redead.dev/docs)
+- [API reference](https://redeal.dev/docs/)
+- [Blog](https://redeal.dev/blog)
+- [Security](https://redeal.dev/.well-known/security.txt)
+- [Trust centre](https://redeal.dev/trust)
+
+## API Evangelist rating
+
+**Kin Score 41.5** — developing · rubric 0.28.1 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.9 |
+| Contract quality | 46.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 6.4 |
+
+**Agent readiness 40.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 27.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/redeal-dev/](https://apis.io/providers/redeal-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Redeal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/redeal-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
